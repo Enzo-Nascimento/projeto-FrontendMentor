@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat-app</title>
+</head>
+<body>
+    
+    <span id="background-detail"></span>
+
+    <main>
+        <div id="celular">
+            <div id="header-app">
+                <span id="parte-superior"></span>
+                <ion-icon name="chevron-back-outline"></ion-icon>
+                <img src="./images/avatar.jpg" alt="">
+                <div id="SG">
+                    <p>Samuel Green</p>
+                    <p>Available to walk</p>
+                </div>
+                <ion-icon name="ellipsis-vertical"></ion-icon>
+            </div>
+            <section id="mensagens">
+                <div class="mensagens-esquerda">
+                    <div class="balao-esquerda">
+                        <p>That sounds great. I'd be happy to discuss more.</p>
+                    </div>
+                    <div class="balao-esquerda">
+                        <p>Could you send over some pictures of your dog, please?</p>
+                    </div>
+                </div>
+                <div class="mensagens-direita">
+                    <div id="imagens-dog">
+                        <img src="./images/dog-image-1.jpg" alt="">
+                        <img src="./images/dog-image-2.jpg" alt="">
+                        <img src="./images/dog-image-3.jpg" alt="">
+                    </div>
+                    <span class="balao-direita">
+                        <p>Here are a few pictures. She's a happy girl</p>
+                    </span>
+                    <span class="balao-direita">
+                        <p>Can you make it?</p>
+                    </span>
+                </div>
+                <div class="mensagens-esquerda">
+                    <div class="balao-esquerda">
+                        <p>She looks so happy! The time we discussed works. How long shall i take her out for?</p>
+                    </div>
+                </div>
+                <div id="especial-messages">
+                    <div class="mensagem-oferta">
+                        <ion-icon name="ellipse-outline"></ion-icon>
+                        <p>30 minute walk</p><span class="preço">$29</span>
+                    </div>
+                    <div class="mensagem-oferta">
+                        <ion-icon name="ellipse-outline"></ion-icon>
+                        <p>1 hour walk</p><span class="preço">$49</span>
+                    </div>
+                </div>
+                <form>
+                    <input type="text" placeholder="Type a message">
+                    <ion-icon name="chevron-forward-circle"></ion-icon>
+                </form>
+            </section>
+        </div>
+        <div id="texto">
+            <h1>Simple booking</h1>
+            <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat</p>
+        </div>
+    </main>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
